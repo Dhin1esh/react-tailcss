@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+p {
+    width: 365px;
+}
+
+.word1 {
+    color: rgb(91, 91, 213);
+}
+
+.word2 {
+    color: rgb(31, 31, 156);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigate-btn {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(220, 224, 228);
+}
+
+.navigate-btn a {
+    font-size: 14px;
+    color: rgb(170, 109, 227);
+    font-weight: 600;
+
+}
+
+.routines {
+    width: 100%;
+    display: flex;
+}
+
+.tasks {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.tasks p {
+    font-size: 10px;
+    width: 82px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.tasks svg {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+
+}
+
+.violet {
+    background-color: rgb(218, 199, 236);
+}
+
+.blue {
+    background-color: rgb(167, 167, 223);
+}
+
+.green {
+    background-color: rgb(149, 216, 148);
+}
+
+.red {
+    background-color: rgb(140, 140, 205);
+}
+
+.button {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-right: 80px;
+}
+
+.ink {
+    font-size: 10px;
+    font-weight: 600;
+}
